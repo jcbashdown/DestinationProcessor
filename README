@@ -2,11 +2,7 @@ Quick and dirty rake and XML tests. Very shoddy of me but I wrote no tests.
 The basic idea is to output web pages based on a taxonomy and information about
 objects in that taxonomy (e.g. destinations)
 
-Would be a nice thing to generate from the taxonomy dynamically but this was only
-a quick and dirty test, also would be worth executing through delayed
-jobs (though the latter would require this actually having an app to live in)
-
-Can be run with something like
-
-rake destination_processor:process['~/taxonomy.xml','~/destinations.xml','~/output_directory']
+Would be a nice thing to generate from the taxonomy dynamically, also would be
+worth executing through delayed jobs (though the latter would require
+this actually having an app to live in)
 
